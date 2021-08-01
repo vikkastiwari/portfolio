@@ -1,0 +1,106 @@
+section#blog article {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+section#blog figure {
+  margin: 0;
+  position: relative;
+}
+
+section#blog figure a {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+section#blog figure a img {
+  width: 100%;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: block;
+}
+
+section#blog figure a:hover img {
+  transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -webkit-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  opacity: 1 !important;
+}
+
+section#blog .post-date {
+  width: 40px;
+  height: 50px;
+  position: absolute;
+  background: #17a2b8;
+  top: 15px;
+  right: 15px;
+  text-align: center;
+  padding-top: 3px;
+  border-radius: 4px;
+  font-family: "Open Sans", sans-serif;
+}
+
+section#blog .post-date span {
+  display: block;
+  color: #fff;
+}
+
+section#blog .post-date span:first-child {
+  font-size: 16px;
+  padding-top: 1px;
+}
+
+section#blog .post-date span:nth-child(2) {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+section#blog article h4 {
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 21px;
+  margin: 24px 0 12px;
+}
+
+section#blog .readmore.btn {
+  margin: 24px 0;
+  background: #699d75;
+}
+
+section#blog p {
+  line-height: 2;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+section#blog .meta {
+  clear: both;
+  padding: 15px 0;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+section#blog .meta span {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+section#blog .meta i {
+  padding-right: 6px;
+}
+
+.allposts {
+  text-align: center;
+  margin-bottom: 70px;
+}
