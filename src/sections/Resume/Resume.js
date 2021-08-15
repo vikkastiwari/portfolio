@@ -38,7 +38,7 @@ const Resume = () => {
           OPEN SOURCE CONTRIBUTIONS
         </h2>
         <OpenSource />
-        <div className="text-center mt-5">
+        {/* <div className="text-center mt-5">
           <a
             href={VTResume}
             rel="noreferrer"
@@ -51,7 +51,7 @@ const Resume = () => {
               <i className="fas fa-download"></i>
             </span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
