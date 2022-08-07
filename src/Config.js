@@ -1,14 +1,14 @@
 import firebase from "firebase";
 
 var firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyAYI8S8DIhW4-qYqgxufTvmQlBMwoZcjXg",
-  authDomain: "iamvikkastiwari.firebaseapp.com",
-  databaseURL: "https://iamvikkastiwari-default-rtdb.firebaseio.com",
-  projectId: "iamvikkastiwari",
-  storageBucket: "iamvikkastiwari.appspot.com",
-  messagingSenderId: "338927216945",
-  appId: "1:338927216945:web:753f58148faee9a90ce810",
-  measurementId: "G-WG1PMB28P4",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGE_SENDER_ID,
+  appId: process.env.REACT_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 });
 
 var db = firebaseApp.firestore();
