@@ -5,7 +5,6 @@ import Experience from "./Experience/Experience";
 import Skills from "./Skills/Skills";
 import Tech from "./Tech/Tech";
 import OpenSource from "./OpenSource/OpenSource";
-import VTResume from "../../assests/files/Resume.pdf";
 
 const Resume = () => {
   return (

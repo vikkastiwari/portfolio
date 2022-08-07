@@ -1,7 +1,5 @@
 import React from "react";
 
-import VTResume from "../assests/files/Resume.pdf";
-
 const About = () => {
   return (
     <section id="about" className="section bg-dark-1">
