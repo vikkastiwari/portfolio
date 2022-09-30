@@ -8,7 +8,7 @@ const Footer = () => {
           {/* <div className="col-lg-6 text-center text-lg-left"> */}
           <div className="col-lg-12">
             <p className="mb-3 mb-lg-0 text-center">
-              Copyright © 2021 <a href="#">Vikas Tiwari</a>. All Rights
+              Copyright © 2022 <a href="#">Vikas Tiwari</a>. All Rights
               Reserved.
             </p>
           </div>
