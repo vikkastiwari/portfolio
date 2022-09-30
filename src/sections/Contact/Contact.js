@@ -126,42 +126,6 @@ const Contact = (props) => {
                   <i className="fab fa-github"></i>
                 </a>
               </li>
-              <li className="social-icons-instagram">
-                <a
-                  data-toggle="tooltip"
-                  href="https://www.instagram.com/pro.mode5/"
-                  target="_blank"
-                  rel="noreferrer"
-                  title=""
-                  data-original-title="Instagram"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li className="social-icons-twitter">
-                <a
-                  data-toggle="tooltip"
-                  href="https://twitter.com/pro_mo5"
-                  target="_blank"
-                  rel="noreferrer"
-                  title=""
-                  data-original-title="Twitter"
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li className="social-icons-facebook">
-                <a
-                  data-toggle="tooltip"
-                  href="https://www.facebook.com/programmersmode/"
-                  target="_blank"
-                  rel="noreferrer"
-                  title=""
-                  data-original-title="Facebook"
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-              </li>
             </ul>
             {/* <form
               id="contact-form"
