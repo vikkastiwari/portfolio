@@ -66,18 +66,18 @@ const Contact = (props) => {
               <span className="text-primary text-4 mr-2">
                 <i className="fas fa-map-marker-alt"></i>
               </span>
-              Mumbai, India
+              India
               <br />
-              <span className="text-primary text-4 mr-2">
+              {/* <span className="text-primary text-4 mr-2">
                 <i className="fas fa-envelope"></i>
-              </span>
-              vikkastiwari56@gmail.com
+              </span> */}
+              {/* xxxx@gmail.com */}
             </p>
             {/* <p className="text-3 text-white-50 mb-1">
               <span className="text-primary text-4 mr-2">
                 <i className="fas fa-phone"></i>
               </span>
-              +91 8108775582
+              +91 xxxxxxxx
             </p> */}
           </div>
           <div className="col-md-8 col-xl-9 text-center order-0 order-md-1">
